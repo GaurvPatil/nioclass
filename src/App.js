@@ -1,7 +1,10 @@
+import Questions from "./components/Questions";
+
 function App() {
   return (
-    <div>
-      <header>Working...</header>
+    <div className="alignment alignmentCol">
+      <header className="header">Question</header>
+      <Questions />
     </div>
   );
 }
